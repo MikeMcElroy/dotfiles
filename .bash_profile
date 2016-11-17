@@ -60,3 +60,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #else
 #    eval $(gpg-agent --daemon --write-env-file ~/.gnupg/.gpg-agent-info)
 #fi
+
+# Get Git completion:
+# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+if [ -f ~/.git-completion.bash ]; then
+ . ~/.git-completion.bash
+fi
