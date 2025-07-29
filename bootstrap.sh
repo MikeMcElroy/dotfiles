@@ -23,7 +23,7 @@ else
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		doIt;
 	fi;
-;
+fi;
 unset doIt;
 
 ## HNNNGH THIS IS EVERYTHING.

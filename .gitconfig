@@ -182,3 +182,12 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Mike McElroy
+	email = mikemaccs@gmail.com
+	signingkey = D717BD11B079447F
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
